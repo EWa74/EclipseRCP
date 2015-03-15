@@ -1,0 +1,21 @@
+
+aus MANIFEST.MF gelöscht:
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
+ Kapitel 4 - Seite 34:
+ ???
+ neues package anstelle einer Klasse angelegt, 
+ da hier nach Namenskonvention keine Klasse sein kann 
+ (muss mit Grossbuchst. beginnen). Aber: weis nicht was
+  mit "ID-Konstante" verschieben gemeint ist ....
+ ????
+ 
+ Seite 41 - Produkt erstellen und exportieren... OK, 
+ Seite 50: Widgets in Adresslistenview eintragen.... OK
+ Seite 51: implementieren des Listeners:
+ 1. Hinweis: Sollte dieser Reiter nicht sichtbar sein, hilft  ggf. R echtsklick auf die View-Klasse >
+Open With > WindowBuilder Editor).
+2. mit der Maus über dem Button im [AddressList.java -> DesignReiter (unten)] -> RMB -> Add event handler > selection > widgetSelected 
+
+
+ 

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension-point id="com.example.addressbook.AdressList" name="Adressen" schema="schema/com.example.addressbook.AddressList.exsd"/>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.example.addressbook.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Adressen"
+            class="com.example.addressbook.Perspective"
+            id="com.example.addressbook.Addresses">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.example.addressbook.views.AddressList"
+            id=" com.example.addressbook.AddressList"
+            name="Adressen"
+            restorable="true">
+      </view>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.example.addressbook.application"
+            name="AdressBook">
+         <property
+               name="appName"
+               value="AdressBook">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="product1"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.example.addressbook.application"
+            name="AdressBook">
+         <property
+               name="appName"
+               value="AdressBook">
+         </property>
+      </product>
+   </extension>
+   <extension
+         id="product2"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.example.addressbook.application"
+            name="AddressBook">
+         <property
+               name="appName"
+               value="AddressBook">
+         </property>
+      </product>
+   </extension>
+
+</plugin>
