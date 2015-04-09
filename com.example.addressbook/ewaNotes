@@ -12,10 +12,15 @@ Bundle-RequiredExecutionEnvironment: JavaSE-1.8
  
  Seite 41 - Produkt erstellen und exportieren... OK, 
  Seite 50: Widgets in Adresslistenview eintragen.... OK
+ 
+  htt p://www .eclipse.org/windowbuilder/download.php 
+ 
  Seite 51: implementieren des Listeners:
  1. Hinweis: Sollte dieser Reiter nicht sichtbar sein, hilft  ggf. R echtsklick auf die View-Klasse >
 Open With > WindowBuilder Editor).
 2. mit der Maus über dem Button im [AddressList.java -> DesignReiter (unten)] -> RMB -> Add event handler > selection > widgetSelected 
 
-
- 
+??????????????????????????????????????
+Implementieren Sie die Methode setFocus der View-Klasse so, dass der Eingabefokus initial
+auf den Butt on g esetzt wird.
+ ?????????????????????????????????????

@@ -26,6 +26,7 @@ public class AddressList extends ViewPart {
 		Button btnAdressenLaden = new Button(parent, SWT.NONE);
 		btnAdressenLaden.addSelectionListener(new SelectionAdapter() {
 			@Override
+			
 			public void widgetSelected(SelectionEvent e) {
 			}
 		});
